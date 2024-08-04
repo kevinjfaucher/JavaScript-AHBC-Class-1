@@ -1,91 +1,101 @@
 /* Import Google Font */
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif; /* Set the font for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: lightgray; /* Light gray background color */
 }
 
 /* Header and Navigation */
 .header {
-    background-color: #007BFF;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+    background-color: blue; /* Blue background color */
+    color: white; /* White text color */
+    padding-top: 20px; /* Padding on top */
+    padding-bottom: 20px; /* Padding on bottom */
+    text-align: center; /* Center the text */
+    position: fixed; /* Fix the header at the top of the page */
+    width: 100%; /* Full width */
+    top: 0; /* Position at the top */
+    z-index: 1000; /* Ensure the header is above other content */
 }
 
 .nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
 .nav li {
-    display: inline;
-    margin: 0 15px;
+    display: inline; /* Display list items in a horizontal line */
+    margin-left: 15px; /* Left margin */
+    margin-right: 15px; /* Right margin */
 }
 
 .nav a {
-    color: white;
-    text-decoration: none;
+    color: white; /* White link color */
+    text-decoration: none; /* Remove underline from links */
 }
 
 .nav a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline links on hover */
 }
 
 /* Content Sections */
 .content {
-    padding: 20px 20px 20px 20px;
-    margin-top: 10px;
+    padding-top: 80px; /* Padding on top */
+    padding-right: 20px; /* Padding on right */
+    padding-bottom: 20px; /* Padding on bottom */
+    padding-left: 20px; /* Padding on left */
+    margin-top: 80px; /* Top margin to avoid overlap with fixed header */
 }
 
 h2 {
-    color: #333;
+    color: darkgray; /* Dark gray color for headings */
 }
 
 img {
-    max-width: 75%;
-    height: auto;
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* Services List */
 ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type: disc; /* Use disc bullets for unordered lists */
+    padding-left: 20px; /* Left padding for lists */
 }
 
 /* Footer */
 .footer {
-    background-color: #007BFF;
-    color: black;
-    text-align: center;
-    padding: 10px 0;
-    width: 100%;
-    bottom: 0;
+    background-color: blue; /* Blue background color */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding-top: 10px; /* Padding on top */
+    padding-bottom: 10px; /* Padding on bottom */
+    width: 100%; /* Full width */
+    bottom: 0; /* Position at the bottom */
 }
 
 /* Box Model */
-p, img {
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ddd;
-    background-color: white;
+p,
+img {
+    margin-top: 10px; /* Top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    padding: 10px; /* Padding inside the elements */
+    border: 1px solid lightgray; /* Light gray border */
+    background-color: white; /* White background color */
 }
 
 /* Centering Elements */
 #contact a {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    width: fit-content;
+    display: block; /* Display as a block element */
+    margin-left: auto; /* Left auto margin */
+    margin-right: auto; /* Right auto margin */
+    text-align: center; /* Center the text inside the block element */
+    width: fit-content; /* Fit width to content */
 }
 
 /* Hover Effects */
-button:hover, a:hover {
-    color: #0056b3;
+button:hover,
+a:hover {
+    color: darkblue; /* Darker blue color on hover */
 }
